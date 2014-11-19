@@ -1,0 +1,38 @@
+.list:first-child {
+  margin-left: 0;
+  width: 260px;
+}
+/*.list:last-child {*/
+  /*margin-right: 0;*/
+/*}*/
+
+#board {
+  width: 1360px;
+  margin: 0 auto;
+  display: block !important;
+}
+
+#board .list-table {
+  display: table;
+  border-spacing: 10px;
+  width: 100%;
+}
+
+#board .list {
+  display: table-cell;
+  margin: 0;
+}
+
+.list-group .list:first-child {
+  /*margin-left: 5px;*/
+}
+.list-group {
+  height: 100%;
+  border-spacing: 0;
+}
+.list-group .clearfix {
+  margin-bottom: 10px;
+}
+.list-group .list {
+  height: 100%;
+}

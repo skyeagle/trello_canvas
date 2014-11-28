@@ -1,15 +1,12 @@
 .list:first-child {
   margin-left: 0;
-  width: 260px;
 }
-/*.list:last-child {*/
-  /*margin-right: 0;*/
-/*}*/
 
 #board {
   width: 1360px;
   margin: 0 auto;
   display: block !important;
+  overflow-y: auto;
 }
 
 #board .list-table {
@@ -20,19 +17,12 @@
 
 #board .list {
   display: table-cell;
-  margin: 0;
 }
 
-.list-group .list:first-child {
-  /*margin-left: 5px;*/
-}
 .list-group {
-  height: 100%;
   border-spacing: 0;
+  display: table-cell;
 }
 .list-group .clearfix {
   margin-bottom: 10px;
-}
-.list-group .list {
-  height: 100%;
 }
